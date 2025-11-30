@@ -125,10 +125,10 @@ curl -X POST http://localhost:3000/api/calculate \
 ## 🛡️ CORS
 
 Les origines autorisées sont :
-- `https://naboulsi92.github.io` (Production GitHub Pages)
+- `https://naboulsi92.github.io/calculateur-salaire-frontend` (Production GitHub Pages)
 - `http://localhost:*` (Développement local)
 
 ## 🔗 Liens
 
-- **Frontend** : https://github.com/Naboulsi92/Calculateur-Salaire-Maroc
-- **Application** : https://naboulsi92.github.io/Calculateur-Salaire-Maroc/
+- **Frontend** : https://github.com/Naboulsi92/calculateur-salaire-frontend
+- **Application** : https://naboulsi92.github.io/calculateur-salaire-frontend/
