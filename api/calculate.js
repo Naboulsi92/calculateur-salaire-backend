@@ -102,7 +102,7 @@ function calculerNetDepuisBrut(salaireDeBaseMensuel, dateEmbauche, nbCharges, in
 }
 
 // --- Handler Vercel Serverless ---
-export default function handler(req, res) {
+module.exports = (req, res) => {
     // CORS Headers
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -153,4 +153,4 @@ export default function handler(req, res) {
         console.error('Erreur de calcul:', error);
         res.status(500).json({ error: 'Erreur interne du serveur lors du calcul' });
     }
-}
+};

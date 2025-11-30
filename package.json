@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Backend API pour le calculateur de salaire net/brut au Maroc (Loi de Finances 2025)",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
