@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 // Configuration CORS pour autoriser GitHub Pages et localhost
 const corsOptions = {
     origin: [
-        'https://naboulsi92.github.io',
+        'https://naboulsi92.github.io/calculateur-salaire-frontend/',
         'http://localhost:3000',
         'http://127.0.0.1:3000',
         'http://localhost:5500',
@@ -212,7 +212,7 @@ app.post('/api/calculate', (req, res) => {
     }
 });
 
-// Démarrage du serveur sur 0.0.0.0 pour Render
+// Démarrage du serveur sur 0.0.0.0 pour Vercel
 app.listen(port, '0.0.0.0', () => {
     console.log(`Serveur de calcul démarré sur le port ${port}`);
 });
